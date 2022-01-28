@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+   
+.header {
+    color: white;
+}
+   
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+}
+   
+.header-list li {
+    float: right;
+    padding: 33px 20px;
+    color: white;
+}
+
+.header-list li:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+
+.header-list a {
+    color:white;
+}
+
+body {
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
+.main {
+    background-color: #DEDBD3;
+  
+}
+
+a {
+    text-decoration: none;
+}
+
+.copy-container {
+    padding: 70px 0px 100px 0px;
+    background-image: url(image/background1.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    background-position: center;
+    animation: slide 20s infinite;
+    width: 100%;
+}
+
+.copy-container h1 {
+    font-size: 75px;
+}
+
+.copy-container h2 {
+    font-size: 35px;
+}
+
+.content {
+    height: 400px;
+    padding: 0 100px;
+    
+}
+
+.section-title {
+    border-bottom: 2px solid black;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+
+.category-item {
+    float: left;
+    margin-right: 40px;
+    padding: 8px;
+}
+
+.category-item p {
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.category-item img {
+    width: 150px;
+    height: 150px;
+}
+
+.contents-item {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: fit-content;
+    display: inline-block;
+    background-color: #DEDBD3;
+    text-align: center;
+    opacity: 1;
+}
+
+.contents-item p {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.contents-item img {
+    width: 160px;
+    height: 180px;
+    position: relative;
+    padding-top: 10px;
+}
+
+.contents-item span {
+    font-size: 28px bold;
+}
+
+.contact-form {
+    height: 750px;
+    margin-top: 100px;
+    padding: 100px 100px;
+}
+
+.input {
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+}
+
+.textarea {
+    width: 300px;
+    height: 100px;
+}
+
+.contact-form p {
+    font-size: 20px;
+    
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+  }
+  
+.btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+.btn {
+    padding: 12px 24px;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+.btn:hover {
+    opacity: 1;
+  }
+
+.shop {
+    background-color: cornsilk;
+}
+
+.contents-item a {
+    color: black;
+}
+
+.category-item a {
+    color: black;
+}
+
+.contents-item:hover {
+    opacity: 0.8;
+    border: solid 2px black;
+}
+
+.category-item:hover {
+    opacity: 0.8;
+    border: solid 2px black;
+}
+
+@keyframes slide{
+    50%{
+        background-image: url(image/background2.png);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(image/background4.png);
+        background-size: cover;
+    } 
+    100%{
+        background-image: url(image/background3.png);
+        background-size: cover;
+    }
+}
+
+.highlight-item {
+    position: relative;
+    
+}
+
+.highlight-item img {
+    padding-right: 20px;
+    width: 350x;
+    height: 450px;
+}
+
+
+.highlight-teks {
+    display: inline-block;
+    background-color: cornsilk;  
+    position: absolute;
+    opacity: 0.9;
+}
+
+.highlight-teks p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.korean {
+    height: 130px;
+    width: 150px;
+    margin-top: 280px;
+    padding-left: 15px;
+}
+
+.street {
+    margin-left: 350px;
+    height: 100px;
+    width: 300px;
+    margin-top: 310px;
+    padding-left: 30px;
+}
+
+.highlight-item img:hover {
+    opacity: 0.8;
+}
+
+.highlight-teks p:nth-child(2) {
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+}
+
+.highlight-item a {
+    color: black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 150px;
+     
+   
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+   
+   
+.footer-logo {
+   font-size: 32px;
+   float:left;
+}
+   
+.footer-list li{
+    float: right;
+    padding: 33px 20px;
+}
+
+.footer-list li:hover {
+    opacity:0.8;
+    cursor:pointer;
+}
+
+.submit {
+    background-color: cornsilk;
+}
+
